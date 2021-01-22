@@ -1,0 +1,60 @@
+$primary-color: white;
+
+
+.head-content {
+  padding-top: 50px;
+  width: fit-content;
+}
+.btn-container {
+  background-color: green;
+  color: $primary-color;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  float: right;
+}
+.btn-primary {
+  margin-right: 10px;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid $primary-color;
+  }
+}
+
+.update {
+  background-color: #54bfe7;
+  color: $primary-color;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.delete {
+  background-color: red;
+  border: none;
+  color: $primary-color;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}

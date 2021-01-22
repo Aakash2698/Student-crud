@@ -1,0 +1,31 @@
+.display 
+{
+  text-decoration: none;
+  display: inline-block;  
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  @extend .display;
+}
+
+.button {
+  background-color: green;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  @extend .display;
+}
